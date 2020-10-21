@@ -81,10 +81,33 @@ class VendorReturns extends Component {
                 as={FormText}
                 eventKey='1'
               >
-                LTL
+                Liquidations
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey='1'>
+              <Card.Body className='cardBody'>
+                {' '}
+                FC Menu  <span role='img' aria-label='arrow'>
+                  ➡️
+                </span> Reverse Logistics  <span role='img' aria-label='arrow'>
+                  ➡️
+                </span> More Choices  <span role='img' aria-label='arrow'>
+                  ➡️
+                </span> PNP Web App
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          <Card>
+            <Card.Header className='cardHeader'>
+              <Accordion.Toggle
+                className='togglebox'
+                as={FormText}
+                eventKey='2'
+              >
+                LTL
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey='2'>
               <Card.Body>
                 {' '}
                 FC Menu  <span role='img' aria-label='arrow'>
@@ -103,12 +126,12 @@ class VendorReturns extends Component {
               <Accordion.Toggle
                 className='togglebox'
                 as={FormText}
-                eventKey='2'
+                eventKey='3'
               >
                 Donation
               </Accordion.Toggle>
             </Card.Header>
-            <Accordion.Collapse eventKey='2'>
+            <Accordion.Collapse eventKey='3'>
               <Card.Body>
                 {' '}
                 FC Menu  <span role='img' aria-label='arrow'>
@@ -126,12 +149,12 @@ class VendorReturns extends Component {
               <Accordion.Toggle
                 className='togglebox'
                 as={FormText}
-                eventKey='3'
+                eventKey='4'
               >
                 Pack and Hold
               </Accordion.Toggle>
             </Card.Header>
-            <Accordion.Collapse eventKey='3'>
+            <Accordion.Collapse eventKey='4'>
               <Card.Body>
                 <div className='Note'>
                   PNH is <strong>Resellable</strong>, so make sure everything is
@@ -282,12 +305,12 @@ class VendorReturns extends Component {
               <Accordion.Toggle
                 className='togglebox'
                 as={FormText}
-                eventKey='4'
+                eventKey='5'
               >
                 Label Printing and Rodio
               </Accordion.Toggle>
             </Card.Header>
-            <Accordion.Collapse eventKey='4'>
+            <Accordion.Collapse eventKey='5'>
               <Card.Body className='cardBody'>
                 <div className='SubHead'>For printing label they are <span role='img' aria-label='number-2'>
                   2️⃣
@@ -338,12 +361,12 @@ class VendorReturns extends Component {
               <Accordion.Toggle
                 className='togglebox'
                 as={FormText}
-                eventKey='5'
+                eventKey='6'
               >
                 LTL Palletize and Ship
               </Accordion.Toggle>
             </Card.Header>
-            <Accordion.Collapse eventKey='5'>
+            <Accordion.Collapse eventKey='6'>
               <Card.Body className='cardBody'>
               <div className='SubHead'><strong>Pallatize</strong> </div>
               <ListGroup>
