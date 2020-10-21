@@ -48,7 +48,7 @@ class Ambassador extends Component {
                 as={FormText}
                 eventKey='0'
               >
-                Day 1
+               Pack Singles - Day 1
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey='0'>
@@ -213,7 +213,7 @@ class Ambassador extends Component {
                 as={FormText}
                 eventKey='1'
               >
-                Day 2
+               Pack Singles Day - 2
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey='1'>
