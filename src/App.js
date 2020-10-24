@@ -4,8 +4,8 @@ import NavHead from './Component/Navbar/NavHead';
 import NavSubject from './Component/Navbar/NavSubject';
 import NavEmpty from '../src/Component/Navbar/NavEmpty';
 import Home from './Component/Pages/Home';
-import Ambassador from './Component/Pages/Ambassador';
-import VendorReturns from './Component/Pages/VendorReturns';
+import VendorReturns from './Component/Pages/VendorReturns/VendorReturns';
+import Ambassador from './Component/Pages/Ambassador/Ambassador';
 class App extends Component {
   render() {
     return (
