@@ -11,6 +11,9 @@ const NavSubject = () => (
             <Nav.Item>
                 <Nav.Link className="navSubject" href='/VendorReturns'>Vendor Returns</Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+                <Nav.Link className="navSubject" href='/pa'>Process Assistant</Nav.Link>
+            </Nav.Item>
         </Nav>
     </NavStyle>
 )
