@@ -34,7 +34,7 @@ class Chase extends Component {
         <form onSubmit={this.handleSubmit}>
        <div>
        <label>
-          Name:
+          Enter
           <input
             type='text'
             value={this.state.value}
